@@ -1,4 +1,4 @@
-# Lokaee
+# LokaLee
 
 
 Lokalee — Travel Global. Live Local.
