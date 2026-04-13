@@ -17,7 +17,7 @@ function initTheme() {
 
 function updateThemeBtn(theme) {
   const btn = document.getElementById("themeToggle");
-  btn.textContent = theme === "dark" ? "☀️ Light Mode" : "🌙 Dark Mode";
+  btn.textContent = theme === "dark" ? " Light Mode" : " Dark Mode";
 }
 
 document.getElementById("themeToggle").addEventListener("click", function () {

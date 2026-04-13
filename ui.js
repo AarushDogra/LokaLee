@@ -22,10 +22,10 @@ function renderWeather(data) {
       "<div>" +
         "<h2>" + cityName + ", " + countryCode + "</h2>" +
         "<h3>" + temp + "°C</h3>" +
-        "<p>🌤️ " + description + "</p>" +
-        "<p>💧 Humidity: " + humidity + "%</p>" +
-        "<p>💨 Wind: " + wind + " m/s</p>" +
-        "<p>🌡️ Feels like: " + feelsLike + "°C</p>" +
+        "<p>" + description + "</p>" +
+        "<p> Humidity: " + humidity + "%</p>" +
+        "<p> Wind: " + wind + " m/s</p>" +
+        "<p>Feels like: " + feelsLike + "°C</p>" +
       "</div>" +
     "</div>";
 
@@ -57,11 +57,11 @@ function renderCountry(data) {
       "<img src='" + flag + "' alt='" + countryName + " flag' />" +
       "<div>" +
         "<h2>" + countryName + "</h2>" +
-        "<p>🏙️ Capital: <strong>" + capital + "</strong></p>" +
-        "<p>🌍 Region: <strong>" + region + "</strong></p>" +
-        "<p>👥 Population: <strong>" + population + "</strong></p>" +
-        "<p>💱 Currency: <strong>" + currencyName + " (" + currencySymbol + ")</strong></p>" +
-        "<p>🗣️ Language: <strong>" + languages + "</strong></p>" +
+        "<p>Capital: <strong>" + capital + "</strong></p>" +
+        "<p>Region: <strong>" + region + "</strong></p>" +
+        "<p>Population: <strong>" + population + "</strong></p>" +
+        "<p>Currency: <strong>" + currencyName + " (" + currencySymbol + ")</strong></p>" +
+        "<p>Language: <strong>" + languages + "</strong></p>" +
       "</div>" +
     "</div>";
 
